@@ -1,0 +1,768 @@
+/* 	The Barbershop Responsive Portfolio HTML Template
+    Document   : layout.css
+    Created on : April, 2013
+    Author     : 25Rows - hello@25rows.com
+    Description: Main style sheet for the The Barbershop Template
+------------------------------------------------------------------------------------------------------------------
+All sections are marked to make it easier to navigate and change the css.
+
+1. Basic Element Styles 
+2. Header
+3. Feature Styles (Slider)
+4. Services Styling
+5. Testimonials Styling
+6. Photobooth/Portfolio Styling
+7. Twitter Feed Styling
+8. Meet the Barbers
+9. About Styling
+10. Ghost Div(Devices)
+11. Blog Section Styling
+12. Contact section styling
+13. Footer Styling
+14. Button Styling
+
+*/
+/* *** 1. Basic Element Styles *** */
+body {
+  font-family: 'PT Sans', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+/* *** Add Market Deco Font  *** */
+@font-face {
+  font-family: "Market_Deco.ttf";
+  src: url("Market_Deco.ttf") format("truetype");
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a:link {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+img {
+  max-width: 100% !important;
+  vertical-align: middle;
+  height: auto;
+}
+.ra {
+  text-align: right;
+}
+a:active {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+a:visited {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+a:hover {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+/* Heading Styles */
+h1.heading {
+  font-size: 48px;
+  color: #333;
+  font-weight: normal;
+  text-align: center;
+  margin: 0 0 20px 0;
+  padding: 0 0 32px 0;
+  background: url("../img/heading-splitter.png") 50% 78px no-repeat;
+}
+h1.heading span {
+  font-weight: bold;
+}
+.lead {
+  color: #888;
+  font-size: 24px;
+}
+/* Padding for anchor Links */
+#service,
+#photobooth,
+#barbers,
+#blog,
+#hello {
+  padding: 20px 0;
+}
+/* *** Section Styles *** */
+section {
+  overflow: hidden;
+}
+.menu {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+/* *** 2. Header *** */
+.xshow-bg {
+  background: #f2f1e6;
+}
+header {
+  background: url("../img/knocker.png") no-repeat 50% 0;
+  max-height: 197px;
+}
+header nav.main {
+  font-family: 'Market_Deco.ttf', sans-serif;
+  font-size: 18px;
+  overflow: hidden;
+}
+header nav.main ul {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1000px;
+  overflow: hidden;
+}
+header nav.main ul li {
+  float: left;
+  margin: 80px 0;
+  border-top: 1px solid #c1bfbf;
+  border-bottom: 1px solid #c1bfbf;
+  padding: 10px 22px;
+}
+header nav.main ul li.ign {
+  padding: 10px 22px;
+  border: none;
+  margin: 0;
+}
+/* *** 3. Feature Styles (Slider) *** */
+.feature {
+  font-family: "Market_Deco.ttf";
+  background: url("../img/feature-bg.png") no-repeat 50% 0;
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 1px;
+}
+.feature p {
+  margin: 0;
+}
+.feature p.tel {
+  text-align: right;
+}
+.feature .feat-info {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+.feature .slider {
+  position: relative;
+  margin: 0 auto;
+  width: 580px;
+}
+/* *** 4. Services Styling *** */
+.services {
+  text-align: center;
+}
+.services p {
+  padding: 0;
+}
+.services .lead {
+  text-align: center;
+  position: relative;
+  margin: 0 auto 80px auto;
+  width: 820px;
+}
+.service-icons {
+  overflow: hidden;
+  margin-bottom: 120px;
+}
+.service-icons .item {
+  text-align: center;
+  margin-right: 30px !important;
+}
+.service-icons .item img {
+  margin: 0 0 23px 0;
+}
+.service-icons .item h2 {
+  margin: 0 0 13px 0;
+  color: #333;
+  font-size: 30px;
+}
+.service-icons .item p {
+  margin: 0;
+  font-size: 18px;
+  color: #888;
+}
+/* *** 5. Testimonials Styling *** */
+.testimonials {
+  background: url("../img/testimonials-bg.png") 0 0 no-repeat;
+  margin: 0 0 47px 0;
+  padding: 22px 0;
+  color: #fff;
+  font-size: 18px;
+}
+.testimonials ul.testi {
+  overflow: hidden;
+}
+.testimonials ul.testi li {
+  overflow: hidden;
+}
+.testimonials h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  border-bottom: 1px solid #fff;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+.testimonials img {
+  float: left;
+  margin: 0 40px 0 0;
+  height: auto;
+}
+.testimonials p.test {
+  float: left;
+  width: 770px;
+  margin: 0;
+  padding: 0;
+}
+.testimonials strong {
+  font-weight: normal;
+  float: right;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.testimonials span {
+  color: #74a0bf;
+  font-weight: bold;
+}
+/* *** 6. Photobooth/Portfolio Styling *** */
+.photobooth {
+  margin-bottom: 56px;
+}
+.photobooth .intro {
+  margin: 0 0 50px 0;
+}
+.photobooth .intro p {
+  margin: 0;
+  padding: 0;
+}
+.photobooth .eleven strong {
+  color: #333;
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 13px;
+  display: block;
+}
+.photobooth .eleven p {
+  color: #888;
+  font-size: 18px;
+}
+.photobooth .five {
+  font-size: 24px;
+  color: #888;
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 31px;
+}
+.photobooth .filter-gallery {
+  position: relative;
+  width: 483px;
+  margin: 0 auto 30px auto;
+  text-align: center;
+}
+.photobooth .filter-gallery ul {
+  overflow: hidden;
+  border-top: 1px solid #c1bfbf;
+  border-bottom: 1px solid #c1bfbf;
+}
+.photobooth .filter-gallery ul li {
+  float: left;
+  padding: 15px;
+}
+.photobooth .filter-gallery ul li.current {
+  font-weight: bold;
+}
+.photobooth .gallery ul li {
+  background: #000;
+  float: left;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  background: url("../img/camera-icon.png") 50% 0 no-repeat #000000;
+}
+.photobooth .gallery ul li p {
+  color: #111;
+  background: url("../img/heart-icon.png") 50% 0 no-repeat #ffffff;
+  margin: 0;
+  padding: 10px 0;
+  position: absolute;
+  width: 313px;
+  display: none;
+  text-align: center;
+  bottom: 0;
+  opacity: 0.8;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+.photobooth .gallery ul li p span {
+  margin-top: 20px;
+  display: block;
+  font-weight: bold;
+}
+.photobooth .gallery ul li strong {
+  color: #fff;
+  margin: 0;
+  padding: 10px 0;
+  position: absolute;
+  width: 313px;
+  display: none;
+  text-align: center;
+  bottom: 0;
+  opacity: 0.8;
+}
+.photobooth .gallery ul li img {
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+.photobooth .gallery ul li:hover {
+  background: #000;
+  float: left;
+  background: url("../img/camera-icon.png") 50% 20% no-repeat #000000;
+}
+.photobooth .gallery ul li:hover img {
+  opacity: 0.3;
+}
+.photobooth .gallery ul li:hover strong {
+  color: #fff;
+  margin: 0;
+  padding: 10px 0;
+  position: absolute;
+  width: 313px;
+  display: block;
+  text-align: center;
+  bottom: 50%;
+  opacity: 0.8;
+}
+.photobooth .gallery ul li:hover p {
+  color: #111;
+  background: url("../img/heart-icon.png") 50% 10px no-repeat #ffffff;
+  margin: 0;
+  padding: 10px 0;
+  position: absolute;
+  width: 313px;
+  display: block;
+  text-align: center;
+  bottom: 0;
+  opacity: 0.8;
+}
+.photobooth .gallery ul li:hover p span {
+  margin-top: 20px;
+  display: block;
+}
+/* *** 7. Twitter Feed Styling *** */
+#tweeter {
+  margin: 0 0 85px 0;
+  height: 148px;
+  background: url("../img/barber-board.png") 0 0 no-repeat;
+  color: #666;
+  font-size: 20px;
+  min-width: 600px;
+}
+#tweeter #twitter {
+  padding: 34px 0 0 210px;
+}
+#tweeter p {
+  margin-top: 35%;
+}
+/* *** 8. Meet the Barbers *** */
+.barbers {
+  text-align: center;
+  margin-bottom: 38px;
+}
+.barbers p.intro {
+  font-size: 24px;
+  color: #888;
+  width: 820px;
+  position: relative;
+  margin: 0 auto 70px auto;
+}
+.barbers ul {
+  overflow: hidden;
+}
+.barbers ul li {
+  margin-right: 0 30px 0 0 !important;
+}
+.barbers ul li img {
+  margin-bottom: 14px;
+}
+.barbers ul li h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 0 0 5px 0;
+}
+.barbers ul li strong {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 9px;
+  display: block;
+}
+.barbers ul li p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+}
+.barbers ul li ul.social2 {
+  margin-left: 70px;
+}
+.barbers ul li ul.social2 li {
+  float: left;
+  margin: 0 10px;
+}
+.barbers ul li ul.social2 li img:hover {
+  opacity: 0.7;
+}
+.barbers ul li.columns.five {
+  width: 295px;
+  margin: 0 17px 0 0;
+}
+/* *** 9. About Styling *** */
+.about {
+  margin-bottom: 100px;
+}
+.about .razor {
+  background: url("../img/razor-splitter.png") 0 0 no-repeat;
+  height: 65px;
+  margin-bottom: 70px;
+}
+.about .text {
+  border-right: 1px solid #ddd;
+  padding-right: 34px;
+  margin-right: 46px !important;
+}
+.about .text .short {
+  font-size: 24px;
+  color: #666;
+  margin: 0 0 16px 0;
+}
+.about .text .long {
+  font-size: 18px;
+  color: #666;
+  margin-top: 0;
+}
+.about .skills ul li em {
+  font-weight: bold;
+  font-style: normal;
+  color: #666;
+  font-size: 16px;
+}
+.about .skills ul li p {
+  position: relative;
+  background: #f1f0f0;
+  height: 20px;
+  margin: 4px 0 17px 0;
+}
+.about .skills ul li.one p span {
+  background: #eaac9e;
+  height: 5px;
+  padding: 7px 0;
+  width: 77%;
+  display: block;
+}
+.about .skills ul li.one p strong {
+  position: absolute;
+  right: 10px;
+  width: 47px;
+  border-radius: 50px;
+  background: #474646;
+  text-align: center;
+  color: #fff;
+}
+.about .skills ul li.two p span {
+  background: #eaac9e;
+  height: 5px;
+  padding: 7px 0;
+  width: 67%;
+  display: block;
+}
+.about .skills ul li.two p strong {
+  position: absolute;
+  right: 20px;
+  width: 47px;
+  border-radius: 50px;
+  background: #474646;
+  text-align: center;
+  color: #fff;
+}
+.about .skills ul li.three p span {
+  background: #eaac9e;
+  height: 5px;
+  padding: 7px 0;
+  width: 84%;
+  display: block;
+}
+.about .skills ul li.three p strong {
+  position: absolute;
+  right: 5px;
+  width: 47px;
+  border-radius: 50px;
+  background: #474646;
+  text-align: center;
+  color: #fff;
+}
+.about .skills ul li.four p span {
+  background: #eaac9e;
+  height: 5px;
+  padding: 7px 0;
+  width: 65%;
+  display: block;
+}
+.about .skills ul li.four p strong {
+  position: absolute;
+  right: 30px;
+  width: 47px;
+  border-radius: 50px;
+  background: #474646;
+  text-align: center;
+  color: #fff;
+}
+.about .skills ul li.five p span {
+  background: #eaac9e;
+  height: 5px;
+  padding: 7px 0;
+  width: 80%;
+  display: block;
+}
+.about .skills ul li.five p strong {
+  position: absolute;
+  right: 15px;
+  width: 47px;
+  border-radius: 50px;
+  background: #474646;
+  text-align: center;
+  color: #fff;
+}
+.about .skills ul span:hover,
+.about .skills ul strong:hover,
+.about .skills ul span:hover {
+  opacity: 0.7;
+}
+/* *** 10. Ghost Div(Devices) *** */
+.ghost {
+  background: #242424;
+  padding: 30px 0;
+  text-align: center;
+  margin-bottom: 86px;
+}
+.ghost h2 {
+  color: #fff;
+  font-size: 30px;
+  margin: 0 0 23px 0;
+  font-weight: normal;
+}
+.ghost h2 span {
+  color: #eaac9e;
+}
+.ghost img {
+  position: relative;
+  margin: 0 auto;
+  width: 706px;
+}
+/* *** 11. Blog Section Styling *** */
+.blog {
+  margin-bottom: 45px;
+}
+.blog ul {
+  overflow: hidden;
+  text-align: center;
+}
+.blog ul li {
+  position: relative;
+  float: left;
+  margin: 22px;
+  height: 261px;
+}
+.blog ul li .type {
+  display: none;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+.blog ul li img.pre {
+  background: #000;
+  margin: 0 0 8px 0;
+  cursor: pointer;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+.blog ul li img:hover {
+  margin: 0 0 8px 0;
+  opacity: 0.5;
+}
+.blog ul li h2 {
+  color: #333;
+  font-size: 24px;
+  margin: 0 0 2px 0;
+}
+.blog ul li p.date {
+  color: #888;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+.blog ul li:hover .type {
+  background: #000;
+  width: 28px;
+  height: 40px;
+  border-radius: 150px;
+  position: absolute;
+  left: 40%;
+  top: 15%;
+  display: block;
+  z-index: 1000001;
+  padding: 15px 15px 3px 15px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+/* *** 12. Contact section styling *** */
+.cover {
+  background: #f9f9f9;
+}
+.hello .lead {
+  text-align: center;
+  position: relative;
+  margin: 0 auto 80px auto;
+  width: 820px;
+}
+.hello .details {
+  margin-bottom: 35px;
+}
+.hello .details h2 {
+  margin: 0 0 15px 0;
+  font-size: 24px;
+  color: #333;
+}
+.hello .details p {
+  font-size: 18px;
+  color: #888;
+  margin: 0 0 25px 0;
+}
+.hello .details h3 {
+  margin: 0 0 15px 0;
+  font-size: 24px;
+  color: #333;
+}
+.hello .details ul {
+  font-size: 18px;
+  color: #888;
+}
+.hello .form input,
+.hello .form textarea {
+  font-size: 14px;
+  color: #bc8e83;
+  border: 1px solid #f5e1dc;
+  background: #fff;
+  padding: 10px;
+  height: 20px;
+  width: 95%;
+  margin: 15px 0 0 0;
+}
+.hello .form textarea {
+  height: 120px;
+  margin: 15px 0 20px 0;
+}
+.hello .form button {
+  float: right;
+  line-height: 0;
+}
+.hello .form .error {
+  color: #bc8e83;
+}
+.map {
+  border: 10px solid #fff;
+}
+.map .gmnoprint {
+  display: none;
+  top: 150px !important;
+}
+.map iframe {
+  border: none;
+}
+.razor2 {
+  background: url("../img/razor-splitter.png") 0 0 no-repeat;
+  height: 65px;
+  margin-bottom: 35px;
+}
+/* *** 13. Footer Styling *** */
+.footer {
+  padding: 20px 0;
+  background: #242424;
+}
+.footer p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+.footer .text {
+  text-align: left;
+}
+.footer .text p {
+  margin-top: 30px;
+}
+.footer .footer-logo {
+  text-align: center;
+}
+.footer .footer-logo p {
+  padding: 55px 0 0 0;
+  background: url("../img/small-razor.png") 50% 10px no-repeat;
+}
+.footer .social-links ul {
+  overflow: hidden;
+  margin: 30px 0 0 135px;
+}
+.footer .social-links ul li {
+  float: left;
+  margin: 0 5px;
+  width: 31px;
+}
+.footer .social-links ul li:hover {
+  float: left;
+  margin: 0 5px;
+  width: 31px;
+  opacity: 0.8;
+}
+/* *** 14. Button Styling *** */
+/* Default btn */
+a.btn {
+  color: #fff;
+}
+.btn {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100px;
+  height: 43px;
+  border: none;
+  background: #eaac9e;
+  border-bottom: 4px solid #cf978b;
+  line-height: 43px;
+  padding: 12px 23px;
+}
+.btn:hover {
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100px;
+  height: 43px;
+  border: none;
+  background: #cf978b;
+  border-bottom: 4px solid #eaac9e;
+}

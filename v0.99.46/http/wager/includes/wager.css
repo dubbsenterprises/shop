@@ -1,0 +1,520 @@
+.headerex {
+    background: url("/common_includes/includes/images/headerex.png") repeat-x scroll 0 0 transparent;
+    height: 181px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.maincontainer {
+    background: none repeat scroll 0 0 #FFFFFF;
+    left: 50%;
+    margin-left: -350px;
+    position: absolute;
+    width: 700px;
+    z-index: 2;
+}
+
+
+.DaysTD {
+    background: #67381b;
+    color: #ffffff;
+    font-family: Verdana, Arial, sans-serif;
+    border-top: 1px #aaaad0 solid;
+    border-left: 1px #aaaad0 solid;
+    border-right: 1px #505080 solid;
+    border-bottom: 1px #505080 solid;
+    text-shadow: #404060 0px 1px 0px;
+    cursor:pointer;
+}
+
+.DateTD {
+    background: #c29b79;
+    color: #ffffff;
+    font-family: Verdana, Arial, sans-serif;
+    border-top: 1px #aaaad0 solid;
+    border-left: 1px #aaaad0 solid;
+    border-right: 1px #505080 solid;
+    border-bottom: 1px #505080 solid;
+    text-shadow: #404060 0px 1px 0px;
+}
+.dateExpired {
+    vertical-align: top;
+    height:40px;
+    background-color:#C29B79;
+    cursor:pointer;
+}
+.dateNotSelected {
+    vertical-align: top;
+    height:40px;
+    background-color:#93DB70;
+    cursor:pointer;
+}
+.dateSelected {
+    vertical-align: top;
+    height:40px;
+    background-color:#93AB70;
+    cursor:pointer;
+}
+.dateNoApptsAvailableStaffID {
+    vertical-align: top;
+    height:40px;
+    background-color:#D0D0D0;
+    cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.strikethrough   { text-decoration: line-through;}
+.t_align_left   {    text-align: left;  }
+.t_align_center {    text-align: center;}
+.t_align_right  {    text-align: right; }
+
+.float_left  {    float: left; }
+.float_right {    float: right;}
+
+.w140px{    width:140px; }
+.w130px{    width:130px; }
+.w120px{    width:120px; }
+.w110px{    width:110px; }
+.w100px{    width:100px; }
+.w90px {    width:90px; }
+.w80px {    width:80px; }
+.w70px {    width:70px; }
+.w60px {    width:60px; }
+.w55px {    width:55px;}
+.w50px {    width:50px;}
+.w40px {    width:40px;}
+.w35px {    width:35px;}
+.w30px {    width:30px;}
+.w20px {    width:20px;}
+
+
+.ChooseApt_MouseOver {
+    background-color:darkred;
+    cursor:pointer;
+}
+
+.ChooseApt_NotAvailable {
+    background-color:#C29B79;
+    color: black;
+}
+.ChooseApt_BOOKED {
+    background-color:#C29B79;
+}
+.ChooseApt_Not_Enough_Time {
+    background-color:yellow;
+}
+
+.ChooseApt_EXPIRED {
+    background-color:#7E2217;
+    color:white;
+}
+
+.ChooseApt_MouseOut {
+    background-color:#93DB70;
+}
+
+.CalMouseOver {
+background: #f0f0f0;
+font-family: Verdana, Geneva, Arial, sans-serif;
+height: 20px;
+line-height: 17px;
+text-shadow: #ffffff 0px 1px 1px;
+}
+.CalMouseOut {
+font-family: Verdana, Geneva, Arial, sans-serif;
+background: #d0d0d0;
+height: 20px;
+line-height: 17px;
+text-shadow: #ffffff 0px 1px 1px;
+}
+
+.VALUE {
+background: #f0f0f0;
+line-height: 17px;
+}
+A.VALUE {
+background: #f0f0f0;
+text-decoration: none;
+}
+A.VALUE:hover {
+background: #e2e2f0;
+text-decoration: none;
+}
+.PANELHEADER {
+color: #ffffff;
+background: #9090b0;
+font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
+font-weight: bold;
+text-shadow: #404080 0px 1px 1px;
+}
+
+.HEADER {
+background: #67381b;
+color: #ffffff;
+font-family: Verdana, Arial, sans-serif;
+border-top: 1px #aaaad0 ;
+border-left: 1px #aaaad0 ;
+border-right: 1px #505080 ;
+border-bottom: 1px #505080 ;
+text-shadow: #404060 0px 1px 0px;
+}
+a.HEADER:link {color: #0000ff; background: #ffffff; font-weight: bold;}
+a.HEADER:active {color: #0000ff; background: #ffffff; font-weight: bold;}
+a.HEADER:visited {color: #0000ff; background: #ffffff; font-weight: bold;}
+a.HEADER:hover {color: #0000ff; background: #ffffff; font-weight: bolder;}
+
+.AppointmentHeaderVisited, .AppointmentHeaderActive, .AppointmentHeaderFuture {
+    text-align: center;
+    padding-top: 8px;
+    font-family: arial, sans-serif, verdana;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.HEADER_EMAIL {
+background: #2e8a3b;
+color: #ffffff;
+font-family: Verdana, Arial, sans-serif;
+border-top: 1px #aaaad0 solid;
+border-left: 1px #aaaad0 solid;
+border-right: 1px #505080 solid;
+border-bottom: 1px #505080 solid;
+text-shadow: #404060 0px 1px 0px;
+}
+
+.CalendarHEADER {
+background: #342713;
+color: #ffffff;
+font-family: Verdana, Arial, sans-serif;
+border-top: 1px #aaaad0 solid;
+border-left: 1px #aaaad0 solid;
+border-right: 1px #505080 solid;
+border-bottom: 1px #505080 solid;
+text-shadow: #404060 0px 1px 0px;
+}
+
+.INFOSECTION {
+color: #404070;
+font-weight: normal;
+}
+.INFOTEXT {
+font-family: Verdana, Geneva, Arial, sans-serif;
+line-height: 15px;
+}
+.ACTION {
+font-family: Verdana, Geneva, Arial, sans-serif;
+background: #e0e0e0;
+text-shadow: #ffffff 0px 1px 1px;
+}
+.SELECTED {
+text-decoration: none;
+background: #ffffff;
+line-height: 14px;
+font-weight: bold;
+border: 1px solid #9090b0;
+font-weight: bold;
+text-shadow: none;
+}
+A.SELECTED {
+border: none;
+}
+A.SELECTED:hover {
+text-decoration: none;
+background: #f0f0ff;
+}
+.PRESELECTED {
+text-decoration: none;
+background: #e0e0e0;
+line-height: 17px;
+}
+A.PRESELECTED:hover {
+text-decoration: none;
+background: #c0c0d0;
+}
+.PRESET {
+text-decoration: none;
+background: #e0e0e0;
+line-height: 17px;
+}
+A.PRESET:hover {
+text-decoration: none;
+background: #f8f8ff;
+}
+.SIDEBAR {
+font-family: Verdana, Geneva, Arial, sans-serif;
+font-size: 11px;
+color: #707090;
+background: #f4f5f9;
+}
+.NAVIGATIONBARITEM {
+font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+font-weight: normal;
+font-size: 11px;
+background: #9090b0;
+color: #00ff00;
+text-shadow: #404080 0px 1px 0px;
+}
+A.HIGHLIGHT:hover {
+background: #c4c5ed;
+}
+.GRIDBACKGROUND {
+background: #ffffff;
+}
+.PAGEHEAD {
+background: #ffffff;
+}
+.HEADBAR {
+}
+.ARROW {
+}
+.ERROR {
+border: solid 1px red;
+}
+.WIDETEXTINPUT {
+font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+width: 99%;
+}
+.ACTIVEIMAGE {
+display: none;
+cursor: pointer;
+cursor: hand;
+}
+.SUBMITBUTTON {
+	background-repeat: repeat-x;
+	border: 1px solid #AAAAAA;
+	cursor: pointer;
+	height: 20px;
+	line-height: 1;
+	top: 10px;
+	}
+.WIDESUBMITBUTTON {
+font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+background: #e0e0e0;
+height: 22px;
+border-color: #ffffff;
+cursor: pointer; 
+}
+.RESETBUTTON {
+font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+background: #e0e0e0;
+width: 120px;
+height: 22px;
+border-color: #ffffff;
+cursor: pointer; 
+}
+.INLINESUBMITBUTTON {
+font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+background: #e0e0e0;
+width: 100%;
+height: 22px;
+border-color: #ffffff;
+cursor: pointer; cursor: hand;
+}
+.INLINERESETBUTTON {
+font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+background: #e0e0e0;
+width: 100%;
+height: 22px;
+border-color: #ffffff;
+cursor: pointer; cursor: hand;
+}
+.HIDDENBUTTON {
+font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+border: 0px;
+background: transparent;
+cursor: pointer; cursor: hand;
+height: 18px;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+.PSEUDOBUTTON {
+font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+text-align: center;
+whitespace: nowrap;
+border-width: 2px;
+border-style: outset;
+border-color: #ffffff;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 2px;
+padding-bottom: 3px;
+color: black;
+background: #e0e0e0;
+cursor: pointer; cursor: hand;
+outline: none;
+width: 120px;
+text-shadow: #ffffff 0px 1px 1px;
+}
+.WIDEPSEUDOBUTTON {
+font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+text-align: center;
+whitespace: nowrap;
+border-width: 2px;
+border-style: outset;
+border-color: #ffffff;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 2px;
+padding-bottom: 3px;
+color: black;
+background: #e0e0e0;
+cursor: pointer; cursor: hand;
+outline: none;
+text-shadow: #ffffff 0px 1px 1px;
+}
+.INLINEPSEUDOBUTTON {
+font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+border-width: 2px;
+border-style: outset;
+border-color: #ffffff;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 2px;
+padding-bottom: 3px;
+margin-top: 1px;
+margin-bottom: 1px;
+margin-left: 0px;
+margin-right: 0px;
+color: black;
+background: #e0e0e0;
+text-align: center;
+whitespace: nowrap;
+width: 100px;
+cursor: pointer; cursor: hand;
+outline: none;
+text-shadow: #ffffff 0px 1px 1px;
+}
+.HIDDENPSEUDOBUTTON {
+font-family: 'Lucida Grande', Tahoma, Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+color: black;
+cursor: pointer; cursor: hand;
+outline: none;
+}
+A.HIDDENPSEUDOBUTTON:hover {
+text-decoration: none;
+}
+.LABELHELPLINK {
+text-decoration: none;
+color: black;
+cursor: help;
+outline: none;
+text-shadow: #ffffff 0px 1px 1px;
+}
+A.LABELHELPLINK:hover {
+text-decoration: none;
+color: #000066;
+cursor: help;
+}
+.HEADERHELPLINK {
+text-decoration: none;
+color: #ffffff;
+cursor: help;
+outline: none;
+text-shadow: #404060 0px 1px 0px;
+}
+A.HEADERHELPLINK:hover {
+text-decoration: none;
+color: #f0f0ff;
+cursor: help;
+}
+.TAB {
+background: #f0f0f0;
+}
+.SELECTEDTAB {
+color: #404070;
+}
+.DISABLED {
+color: #606060;
+}
+.INSET {
+border: solid thin black;
+}
+.OUTSET {
+border: solid thin black;
+}
+.MINI {
+font-family: Helvetica;
+font-size: 1pt;
+line-height: 1px;
+width: 100%;
+}
+.BUTTONBACKGROUND {
+color: #000098;
+background: #e0e0e0;
+}
+.IMAGECELL {
+background-color: #ffffff;
+background-repeat: no-repeat;
+}
+.DATECELL {
+width: 100%;
+text-decoration: none;
+background: #e0e0e0;
+}
+A.DATECELL:hover {
+width: 100%;
+text-decoration: none;
+background: #d0d0d0;
+}
+.APPOINTMENT {
+background: #8060ff;
+}
+.RESTRICTED {
+background: #808080;
+}
+.HOLIDAY {
+background: #dd80dd;
+}
+.AVAILABLE {
+background: #80dd80;
+}
+.UNAVAILABLE {
+background: #ff8080;
+}
+.IDLE {
+background: #ffffdd;
+}
+.HIDDEN {
+display: none;
+}
+.JUSTIFY {
+}
+.NOMARGIN {
+margin: 0px 0px;
+padding: 0px 0px;
+}
+.NOPRINT {
+}
+@media print {
+    .NOPRINT {
+        display: none;
+    }
+}
+

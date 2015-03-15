@@ -1,0 +1,24 @@
+[{'comp_id': 0L, 'cust_fname': 'Matt', 'cust_email': 'matthew.hassel@gmail.com', 'comp_name': 'Dubbsenterprises', 'comp_address': 'DubbsEnterprises LLC\r\n123 Fake St.\r\nChicago, IL 60622\r\nwww.dubbsenterprises.com\r\n312-555-1234', 'cust_lname': 'Hassel', 'cust_id': 760L, 'reminder_utc': datetime.datetime(2013, 11, 3, 19, 30), 'comp_domain': 'dubbsenterprises.com', 'comp_timezone': 'America/Chicago', 'cust_phone': '812-598-8559', 'appt_lt': 'Sunday 11/03/2013 3:30 PM', 'appt_id': 4085L}, {'comp_id': 0L, 'cust_fname': 'Matt', 'cust_email': 'matthew.hassel@gmail.com', 'comp_name': 'Dubbsenterprises', 'comp_address': 'DubbsEnterprises LLC\r\n123 Fake St.\r\nChicago, IL 60622\r\nwww.dubbsenterprises.com\r\n312-555-1234', 'cust_lname': 'Hassel', 'cust_id': 760L, 'reminder_utc': datetime.datetime(2013, 11, 5, 1, 0), 'comp_domain': 'dubbsenterprises.com', 'comp_timezone': 'America/Chicago', 'cust_phone': '812-598-8559', 'appt_lt': 'Monday 11/04/2013 9:00 PM', 'appt_id': 4086L}, {'comp_id': 0L, 'cust_fname': 'Matt', 'cust_email': 'matthew.hassel@gmail.com', 'comp_name': 'Dubbsenterprises', 'comp_address': 'DubbsEnterprises LLC\r\n123 Fake St.\r\nChicago, IL 60622\r\nwww.dubbsenterprises.com\r\n312-555-1234', 'cust_lname': 'Hassel', 'cust_id': 760L, 'reminder_utc': datetime.datetime(2013, 11, 4, 23, 30), 'comp_domain': 'dubbsenterprises.com', 'comp_timezone': 'America/Chicago', 'cust_phone': '812-598-8559', 'appt_lt': 'Monday 11/04/2013 7:30 PM', 'appt_id': 4087L}, {'comp_id': 0L, 'cust_fname': 'Matt', 'cust_email': 'matthew.hassel@gmail.com', 'comp_name': 'Dubbsenterprises', 'comp_address': 'DubbsEnterprises LLC\r\n123 Fake St.\r\nChicago, IL 60622\r\nwww.dubbsenterprises.com\r\n312-555-1234', 'cust_lname': 'Hassel', 'cust_id': 760L, 'reminder_utc': datetime.datetime(2013, 11, 4, 23, 0), 'comp_domain': 'dubbsenterprises.com', 'comp_timezone': 'America/Chicago', 'cust_phone': '812-598-8559', 'appt_lt': 'Monday 11/04/2013 7:00 PM', 'appt_id': 4088L}, {'comp_id': 0L, 'cust_fname': 'Matt', 'cust_email': 'matthew.hassel@gmail.com', 'comp_name': 'Dubbsenterprises', 'comp_address': 'DubbsEnterprises LLC\r\n123 Fake St.\r\nChicago, IL 60622\r\nwww.dubbsenterprises.com\r\n312-555-1234', 'cust_lname': 'Hassel', 'cust_id': 760L, 'reminder_utc': datetime.datetime(2013, 11, 4, 22, 30), 'comp_domain': 'dubbsenterprises.com', 'comp_timezone': 'America/Chicago', 'cust_phone': '812-598-8559', 'appt_lt': 'Monday 11/04/2013 6:30 PM', 'appt_id': 4089L}]
+[]
+Exception in user code (SMS LIMIT most likely has been reached)
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "AppointmentReminder_app.py", line 186, in run
+    sms_app.main()
+  File "/var/media/var_data/domains/dubbsenterprises.com/shop/v0.99.44/script/AppointmentReminder_v1.00/SMSAppointmentReminder.py", line 28, in main
+    voice.login(self.username, self.passwd)
+  File "/var/media/var_data/domains/dubbsenterprises.com/shop/v0.99.44/script/AppointmentReminder_v1.00/googlevoice/voice.py", line 79, in login
+    raise LoginError
+LoginError
+------------------------------------------------------------
+Exception in user code (SMS LIMIT most likely has been reached)
+------------------------------------------------------------
+Traceback (most recent call last):
+  File "AppointmentReminder_app.py", line 186, in run
+    sms_app.main()
+  File "/var/media/var_data/domains/dubbsenterprises.com/shop/v0.99.44/script/AppointmentReminder_v1.00/SMSAppointmentReminder.py", line 28, in main
+    voice.login(self.username, self.passwd)
+  File "/var/media/var_data/domains/dubbsenterprises.com/shop/v0.99.44/script/AppointmentReminder_v1.00/googlevoice/voice.py", line 79, in login
+    raise LoginError
+LoginError
+------------------------------------------------------------

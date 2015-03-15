@@ -1,0 +1,598 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+    .container                                  { position: relative; width: 1000px; margin: 0 auto; padding: 0; }
+    .container .column,
+    .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
+    .row                                        { margin-bottom: 20px; }
+
+    /* Nested Column Classes */
+    .column.alpha, .columns.alpha               { margin-left: 0; }
+    .column.omega, .columns.omega               { margin-right: 0; }
+
+    /* Base Grid */
+    .container .one.column,
+    .container .one.columns                     { width: 40px;  }
+    .container .two.columns                     { width: 100px; }
+    .container .three.columns                   { width: 160px; }
+    .container .four.columns                    { width: 220px; }
+    .container .five.columns                    { width: 280px; }
+    .container .six.columns                     { width: 340px; }
+    .container .seven.columns                   { width: 400px; }
+    .container .eight.columns                   { width: 460px; }
+    .container .nine.columns                    { width: 520px; }
+    .container .ten.columns                     { width: 580px; }
+    .container .eleven.columns                  { width: 640px; }
+    .container .twelve.columns                  { width: 700px; }
+    .container .thirteen.columns                { width: 760px; }
+    .container .fourteen.columns                { width: 820px; }
+    .container .fifteen.columns                 { width: 880px; }
+    .container .sixteen.columns                 { width: 940px; }
+
+    .container .one-third.column                { width: 300px; }
+    .container .two-thirds.column               { width: 620px; }
+
+    /* Offsets */
+    .container .offset-by-one                   { padding-left: 60px;  }
+    .container .offset-by-two                   { padding-left: 120px; }
+    .container .offset-by-three                 { padding-left: 180px; }
+    .container .offset-by-four                  { padding-left: 240px; }
+    .container .offset-by-five                  { padding-left: 300px; }
+    .container .offset-by-six                   { padding-left: 360px; }
+    .container .offset-by-seven                 { padding-left: 420px; }
+    .container .offset-by-eight                 { padding-left: 480px; }
+    .container .offset-by-nine                  { padding-left: 540px; }
+    .container .offset-by-ten                   { padding-left: 600px; }
+    .container .offset-by-eleven                { padding-left: 660px; }
+    .container .offset-by-twelve                { padding-left: 720px; }
+    .container .offset-by-thirteen              { padding-left: 780px; }
+    .container .offset-by-fourteen              { padding-left: 840px; }
+    .container .offset-by-fifteen               { padding-left: 900px; }
+
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .container                                  { width: 768px; }
+        .container .column,
+        .container .columns                         { margin-left: 10px; margin-right: 10px;  }
+        .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }
+        .column.omega, .columns.omega               { margin-right: 0; margin-left: 10px; }
+        .alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+        .container .one.column,
+        .container .one.columns                     { width: 28px; }
+        .container .two.columns                     { width: 76px; }
+        .container .three.columns                   { width: 124px; }
+        .container .four.columns                    { width: 172px; }
+        .container .five.columns                    { width: 220px; }
+        .container .six.columns                     { width: 268px; }
+        .container .seven.columns                   { width: 316px; }
+        .container .eight.columns                   { width: 364px; }
+        .container .nine.columns                    { width: 412px; }
+        .container .ten.columns                     { width: 460px; }
+        .container .eleven.columns                  { width: 508px; }
+        .container .twelve.columns                  { width: 556px; }
+        .container .thirteen.columns                { width: 604px; }
+        .container .fourteen.columns                { width: 652px; }
+        .container .fifteen.columns                 { width: 700px; }
+        .container .sixteen.columns                 { width: 748px; }
+
+        .container .one-third.column                { width: 236px; }
+        .container .two-thirds.column               { width: 492px; }
+
+        /* Offsets */
+        .container .offset-by-one                   { padding-left: 48px; }
+        .container .offset-by-two                   { padding-left: 96px; }
+        .container .offset-by-three                 { padding-left: 144px; }
+        .container .offset-by-four                  { padding-left: 192px; }
+        .container .offset-by-five                  { padding-left: 240px; }
+        .container .offset-by-six                   { padding-left: 288px; }
+        .container .offset-by-seven                 { padding-left: 336px; }
+        .container .offset-by-eight                 { padding-left: 384px; }
+        .container .offset-by-nine                  { padding-left: 432px; }
+        .container .offset-by-ten                   { padding-left: 480px; }
+        .container .offset-by-eleven                { padding-left: 528px; }
+        .container .offset-by-twelve                { padding-left: 576px; }
+        .container .offset-by-thirteen              { padding-left: 624px; }
+        .container .offset-by-fourteen              { padding-left: 672px; }
+        .container .offset-by-fifteen               { padding-left: 720px; }
+        /* Start Default styles */
+        .menu {
+            display: none;
+        }
+        /* Header */
+        header {
+          background: none;
+          max-height: 197px;
+          max-height: 300px;
+        }
+        header nav.main {
+          font-family: 'Market_Deco.ttf', sans-serif;
+          font-size: 16px;
+          overflow: hidden;
+          margin-bottom: 10px;
+        }
+        header nav.main ul {
+          position: relative;
+          margin: 0 auto;
+          max-width: 955px;
+          overflow: hidden;
+        }
+        header nav.main ul li {
+          float: none;
+          margin: 0;
+          text-align: center;
+          border: none;
+          padding: 0;
+        }
+
+        header nav.main ul li img {
+            width: 130px;
+        }
+        header nav.main ul li.ign {
+          padding: 10px 22px;
+          border: none;
+          margin: 0;
+        }
+
+        /* Services */
+        .container .five.columns {
+            width: 210px;
+            }
+
+            .service-icons .item h2 {
+                margin: 0 0 13px 0;
+                color: #333;
+                font-size: 27px;
+            }
+
+            /* Testimonials */
+            .testimonials p.test {
+                float: left;
+                width: 550px;
+                margin: 0;
+                padding: 0;
+            }
+
+            /* Portfolio */
+
+            #photobooth ul {
+                
+                    position: relative;
+                    margin: 0 auto;
+                    width: 630px;
+                
+            }
+
+            .photobooth ul#filter {
+                position: relative;
+                width: 470px;
+                margin: 0 0 30px 0;
+            }
+
+            /* Twitter Api */
+            #tweeter {
+                margin: 0 0 85px 0;
+                height: 148px;
+                background: url("../img/barber-board.png") 0 0 no-repeat #f1e8de;
+                color: #666;
+                font-size: 20px;
+                min-width: 600px;
+            }
+
+
+            .container .three.columns {
+                width: 724px;
+            }
+
+            #tweeter p {
+                margin: -60px 0 0 610px;
+            }
+
+            /* Barbers */
+
+            .barbers ul li.columns.five {
+                width: 220px;
+                margin: 0 27px 0 0;
+            }
+
+            .barbers ul li ul.social2 {
+                margin-left: 30px;
+            }
+
+            /* Blog */
+            .blog ul {
+                overflow: hidden;
+                text-align: center;
+                position: relative;
+                margin: 0 auto;
+                width: 640px;
+            }
+
+            /* Footer */
+            .footer ul li img {
+                width: 20px;
+                height: 20px;
+            }
+
+            .footer .social-links ul li {
+                float: left;
+                margin: 0 3px;
+                width: 20px;
+            }
+
+            /* Map */
+            .map {
+                width: 700px;
+            }
+
+            iframe {
+                width: 700px;
+            }
+
+            .razor2 {
+                background: url("../img/razor-splitter.png") 50% 0 no-repeat;
+                height: 65px;
+                margin-bottom: 35px;
+            }
+
+            .about .razor {
+                background: url("../img/razor-splitter.png") 50% 0 no-repeat;
+            }
+        /* End Default styles */
+
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .container { width: 300px; }
+        .container .columns,
+        .container .column { margin: 0; }
+
+        .container .one.column,
+        .container .one.columns,
+        .container .two.columns,
+        .container .three.columns,
+        .container .four.columns,
+        .container .five.columns,
+        .container .six.columns,
+        .container .seven.columns,
+        .container .eight.columns,
+        .container .nine.columns,
+        .container .ten.columns,
+        .container .eleven.columns,
+        .container .twelve.columns,
+        .container .thirteen.columns,
+        .container .fourteen.columns,
+        .container .fifteen.columns,
+        .container .sixteen.columns,
+        .container .one-third.column,
+        .container .two-thirds.column  { width: 300px; }
+
+        /* Offsets */
+        .container .offset-by-one,
+        .container .offset-by-two,
+        .container .offset-by-three,
+        .container .offset-by-four,
+        .container .offset-by-five,
+        .container .offset-by-six,
+        .container .offset-by-seven,
+        .container .offset-by-eight,
+        .container .offset-by-nine,
+        .container .offset-by-ten,
+        .container .offset-by-eleven,
+        .container .offset-by-twelve,
+        .container .offset-by-thirteen,
+        .container .offset-by-fourteen,
+        .container .offset-by-fifteen { padding-left: 0; }
+
+
+/* Start Default styles */
+
+.menu {
+            display: none;
+        }
+        /* Header */
+        header {
+          background: none;
+          max-height: 197px;
+          max-height: 300px;
+        }
+        header nav.main {
+          font-family: 'Market_Deco.ttf', sans-serif;
+          font-size: 16px;
+          overflow: hidden;
+          margin-bottom: 10px;
+        }
+        header nav.main ul {
+          position: relative;
+          margin: 0 auto;
+          max-width: 955px;
+          overflow: hidden;
+        }
+        header nav.main ul li {
+          float: none;
+          margin: 0;
+          text-align: center;
+          border: none;
+          padding: 0;
+        }
+
+        header nav.main ul li img {
+            width: 130px;
+        }
+        header nav.main ul li.ign {
+          padding: 10px 22px;
+          border: none;
+          margin: 0;
+        }
+
+        h1.heading {
+            background: url("../img/heading-splitter.png") no-repeat scroll 50% 48px transparent;
+            color: #333333;
+            font-size: 28px;
+            font-weight: normal;
+            margin: 0 0 20px;
+            padding: 0 0 32px;
+            text-align: center;
+        }
+
+        ul.bxslider img {
+            width: 300px;
+        }
+
+        .bx-wrapper .bx-next {
+            background: url("../img/controls2.png") no-repeat scroll -43px 0 transparent;
+            left: 40px;
+            top: 250px;
+        }
+
+        .bx-wrapper .bx-prev {
+            left: 10px;
+            background: url("../img/controls2.png") no-repeat 0 0;
+            opacity: 0.9;
+            top: 250px;
+        }
+
+        bx-wrapper .bx-controls-direction a {
+            position: absolute;
+            outline: 0;
+            width: 32px;
+            height: 32px;
+            text-indent: -9999px;
+            z-index: 9999;
+            
+        }
+
+        .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+            position: absolute;
+            bottom: -30px;
+            width: 100%;
+            right: 55px;
+        }
+
+   h1.heading span {
+        font-weight: bold;
+    }
+
+    .services h1.heading {
+        background: url("../img/heading-splitter.png") no-repeat scroll 50% 85px transparent
+    }
+
+    .services .lead {
+        width: 300px;
+    }
+
+    .barbers p.intro {
+        width: 300px;
+    }
+
+    .hello .lead {
+        width: 300px;
+    }
+
+    .service-icons .item {
+        margin-bottom: 30px;
+    }
+
+     /* Testimonials */
+
+     .testimonials img {
+        float: left;
+            height: auto;
+            margin: 0 20px 0 0;
+            width: 80px;
+        }
+
+        .testimonials strong {
+            padding-left: 30px;
+            display: block;
+        }
+
+        .feature {
+            min-height: 315px;
+        }
+
+        .hello .lead {
+            width: 300px;
+        }
+
+        .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+            display: none;
+}
+
+
+.photobooth .filter-gallery {
+    text-align: left;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.photobooth .filter-gallery ul li {
+    float: left;
+    padding: 5px;
+}
+
+
+.bx-wrapper .bx-viewport {
+    top: 5px;
+}
+
+            .testimonials {
+                background: url("../img/testimonials-bg.png") 0 0 no-repeat;
+                color: #FFFFFF;
+                font-size: 14px;
+                margin: 0 0 47px;
+                padding: 15px 0;
+            }
+
+            .testimonials p.test {
+               float: left;
+                margin: 0;
+                padding: 0;
+                width: 200px;
+            }
+
+            .testimonials h2 {
+                border-bottom: 1px solid #FFFFFF;
+                color: #FFFFFF;
+                font-size: 20px;
+                margin: 0;
+                padding: 0 0 5px;
+                text-align: center;
+            }
+
+            .bx-wrapper .bx-controls-direction a {
+                display: none;
+            }
+
+            
+
+            .about .razor {
+                margin-bottom: 20px;
+                background: url("../img/razor-splitter.png") no-repeat scroll 50% 0 transparent
+            }
+
+            .about .text {
+                border: none;
+            }
+
+            .ghost {
+                margin-bottom: 36px;
+            }
+
+            .service-icons {
+                margin-bottom: 60px;
+                overflow: hidden;
+            }
+
+            .razor2 {
+                background: url("../img/razor-splitter.png") no-repeat scroll 50% 0 transparent;
+                height: 65px;
+                margin-bottom: 35px 0;
+            }
+
+            .footer .five {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            .footer .social-links ul {
+                margin: 10px 0 0 50px;
+            }
+
+             /* Map */
+            .map {
+                width: 300px;
+            }
+
+            iframe {
+                width: 300px;
+            }
+
+
+            #tweeter #twitter {
+                padding: 34px 0 0 10px;
+            }
+
+            #twitter {
+                width: 300px;
+            }
+
+            #tweeter {
+                background: url("../img/big_tweet.png") 50% 0 no-repeat;
+                min-width: 300px;
+            }
+
+        /* End Default styles */
+
+
+    }
+
+
+
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }

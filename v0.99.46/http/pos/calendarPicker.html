@@ -1,0 +1,30 @@
+<html>
+    <head><title></title></head>
+<body>
+
+<link rel=stylesheet href="includes/jQueryCSS/jquery.calendarPicker.css" type="text/css" media="screen" />
+<script type="text/javascript" src="includes/jQueryJS/jquery-1.4.4.min.js"></script>
+<script type="text/javascript" src="includes/jQueryJS/jquery.calendarPicker.js"></script>
+<script type="text/javascript" src="includes/jQueryJS/jquery.mousewheel.js"></script>
+    <a href="calendarPicker.html#" onclick="calendarPicker1.changeDate(new Date())">today</a>
+    <div id="calendar" style="width:200px"></div>
+
+    <br>
+    <span id="wtf"></span>
+
+<script type="text/javascript">
+  var calendarPicker1 = $("#calendar").calendarPicker({
+    monthNames:["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    dayNames: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    //useWheel:true,
+    //callbackDelay:500,
+    years:1,
+    months:1,
+    days:2,
+    showDayArrows:false,
+    callback:function(cal) {
+      $("#wtf").html("Selected date: " + cal.currentDate);
+    }});
+</script>
+</body>
+</html>
